@@ -1,0 +1,17 @@
+:root:has(.mode input:checked){
+   
+        --main-color:#252525;
+        --second-color:#171717;
+        --therd-color: #c17e1f;
+        --therd-light:#d78c23;
+        --dark-light:white;
+}
+
+
+:root:has(.mode:checked) .mode .dark {
+    display: none;
+  }
+  
+  :root:has(.mode:checked) .mode .light {
+    display: block;
+  }
